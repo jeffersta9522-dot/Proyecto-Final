@@ -1,25 +1,79 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background-color: rgb(76, 207, 207);
+    background-color: rgb(15, 184, 170);
 }
 
-
-table {
-    background-color: rgb(50, 185, 219);
-}
-
-nav {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-section {
-    background-color: rgb(69, 235, 179);
-    margin-top: 20px;
+#inicio {
     padding: 20px;
+    background-color: rgb(11, 119, 119);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#formulario {
+    padding: 20px;
+    background-color: rgb(13, 146, 146);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+
+#acerca {
+    padding: 20px;
+    background-color: rgb(6, 134, 134);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+table {
+    background-color: rgb(19, 153, 187);
+    width: 40%;
+    margin-top: 15px;
+} 
+
+table , th ,td {
+    border: 1px solid #ccc;
+}
+ th, td {
+    padding: 10px 12px;
+    text-align: left;
+ }
+  th{
+    background-color: rgb(10, 145, 199);
+  }
+
+
+
+
+
+@media (max-width: 600px) {
+
+    nav {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    section {
+        background-color: rgb(69, 235, 179);
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    form input,
+    form select,
+    form button {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    .galeria-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
 /* ================================
    GALERÍA / GRID
 ================================ */
