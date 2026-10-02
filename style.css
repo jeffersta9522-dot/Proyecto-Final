@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(76, 207, 207);
+}
+
+
+table {
+    background-color: rgb(50, 185, 219);
+}
+
+nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+section {
+    background-color: rgb(69, 235, 179);
+    margin-top: 20px;
+    padding: 20px;
+}
