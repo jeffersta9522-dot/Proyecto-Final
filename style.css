@@ -25,11 +25,6 @@ body{
     border-radius: 8px;
     margin-top: 20px;
 }
-table {
-    background-color: rgb(19, 153, 187);
-    width: 40%;
-    margin-top: 15px;
-} 
 
 table , th ,td {
     border: 1px solid #ccc;
@@ -48,21 +43,31 @@ table , th ,td {
 
 @media (max-width: 600px) {
 
-    nav {
+    nav ul {
+        display: flex;
+        flex-direction: column;
         list-style: none;
         margin: 0;
         padding: 0;
-        display: flex;
+    }
+
+    nav li {
+        margin-bottom: 8px;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
     }
 
     section {
-        background-color: rgb(69, 235, 179);
         margin-top: 20px;
-        padding: 20px;
+        padding: 15px;
     }
 
     form input,
     form select,
+    form textarea,
     form button {
         width: 100%;
         box-sizing: border-box;
@@ -73,6 +78,9 @@ table , th ,td {
         grid-template-columns: 1fr;
     }
 
+    table {
+        font-size: 14px;
+    }
 }
 /* ================================
    GALERÍA / GRID

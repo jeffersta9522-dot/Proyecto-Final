@@ -24,6 +24,7 @@
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#tabla">Tabla</a></li>
             <li><a href="#formulario">Formulario</a></li>
+            <li><a href="#galeria">Galería</a></li>
             <li><a href="#acerca">Acerca de</a></li>
         </ul>
     </nav>
@@ -44,8 +45,7 @@
                 El proyecto fue desarrollado utilizando buenas prácticas
                 de control de versiones y colaboración entre estudiantes.
             </p>
-                 <!-- Se mejoro el atributo -->
-            <img src="https://media.istockphoto.com/id/2237822747/photo/futuristic-data-center-with-high-speed-digital-transmission-lines-ai-analytics-and-big-data.jpg?s=1024x1024&w=is&k=20&c=UGXWupyLnuiTsvgnqbQTx3c2KG8XygAjOBF8bL1Wdcw=" alt="Bienvenida" width="100%">
+<img src="https://media.istockphoto.com/id/2237822747/photo/futuristic-data-center-with-high-speed-digital-transmission-lines-ai-analytics-and-big-data.jpg?s=1024x1024&w=is&k=20&c=UGXWupyLnuiTsvgnqbQTx3c2KG8XygAjOBF8bL1Wdcw=" alt="Centro de datos utilizado como ilustración del proyecto" width="100%">
         </section>
 
         <!-- Sección de tabla -->
@@ -55,9 +55,9 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Nombre</th>
-                        <th>Apellido</th>
-                        <th>Correo electrónico</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Apellido</th>
+                        <th scope="col">Correo electrónico</th>
                     </tr>
                 </thead>
 
@@ -108,6 +108,7 @@
                         id="nombre"
                         name="nombre"
                         placeholder="Ingrese su nombre"
+                        required
                     >
                 </div>
 
@@ -120,6 +121,7 @@
                         id="correo"
                         name="correo"
                         placeholder="Ingrese su correo"
+                        required
                     >
                 </div>
 
@@ -135,6 +137,7 @@
                         rows="5"
                         cols="40"
                         placeholder="Escriba su mensaje"
+                        required
                     ></textarea>
                 </div>
 
